@@ -5,15 +5,13 @@
 </head>
 <body class="container">
   <header class="">
-    <a href="/">
-      <img class="fleft logo" src="./images/logo.png" alt="logo" />
-    </a>
+    <a href="/">  <img class="fleft logo" src="./images/logo.png" alt="logo" /></a>
     <ul class="fright">
       <li><a href="/">HOME</a></li>
       <li><a href="#">ADD PRODUCT</a></li>
     </ul>
   </header>
-  <form class="add_product_form" id="add_product_form">
+  <form class="add_product_form" id="add_product_form" onsubmit="event.preventDefault(); addProduct();">
     <h2>Add a New Product</h2>
     <ul>
       <li>
@@ -81,5 +79,15 @@
     </ul>
     <button id="submit">SAVE</button>
   </form>
+  <div class="clearfix"></div>
+  <footer class="">
+    <img class="fright logo" width="200" src="images/logo.png" alt="logo" />
+    <div class="link-grp fleft ">
+      <a href="#" class="link facebook"></a>
+      <a href="#" class="link twitter"></a>
+      <a href="#" class="link insta"></a>
+    </div>
+  </footer>
+
 </body>
 </html>

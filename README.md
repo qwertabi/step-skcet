@@ -1,6 +1,6 @@
-# step-product-app
+# step-projector-app
 
-For ProductServer
+For ProjectorServer
 
 The quickest way to get started with express is to utilize the express generator
 
@@ -41,6 +41,3 @@ exports.STATUS_CODE = {
         MESSAGE : "No such product found. Please check again"
     }
 };
-
-
-myJSON link: https://api.myjson.com/bins/1d47ac
